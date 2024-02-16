@@ -8,6 +8,8 @@ edition = "2021"
 [dependencies]
 regex = "1.10.2"
 fstream = "0.1.2"
+chrono = "*"
+colored = "*"
 
 [profile.release]
 opt-level = "z"
